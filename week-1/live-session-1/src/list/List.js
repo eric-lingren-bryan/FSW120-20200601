@@ -6,27 +6,27 @@ const List = () => {
     let cardData = [
         {
             title: 'Wash dishes',
-            description:'ajksdhf',
+            description:'They are So Dirty....',
             isComplete:false
         },
         {
             title: 'Work',
-            description:'ajkadfgsdfgsdhf',
+            description:'Make That MONEY!',
             isComplete:false
         },
         {
             title: 'Exercise',
-            description:'230945029348',
+            description:'Get Ripped',
             isComplete:true
         },
         {
             title: 'Exercise Again',
-            description:'230945029348',
+            description:'Extra Ripped',
             isComplete:true
         },
         {
             title: 'Eat Pizza',
-            description:'pepperoni',
+            description:'Pepperoni',
             isComplete: false
         },
     ]
@@ -44,7 +44,7 @@ const List = () => {
 
     return (
         <div >
-            <h1> This is list</h1>
+            <h1> This is my list component </h1>
             {mappedCards}
         </div>
     )
