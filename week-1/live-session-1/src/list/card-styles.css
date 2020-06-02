@@ -1,0 +1,12 @@
+.card-item{
+    border: 1px solid black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.card-complete{
+    background-color: aquamarine;
+}
+.card-incomplete{
+    background-color: burlywood;
+}
