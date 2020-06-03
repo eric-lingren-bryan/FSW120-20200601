@@ -1,0 +1,11 @@
+.card-item{
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+
+.card-completed{
+    background-color: chartreuse;
+}
+.card-incompleted{
+    background-color: cornflowerblue;
+}
