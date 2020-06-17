@@ -5,8 +5,6 @@ class BadgeList extends Component {
 
     render(){
 
-    console.log(this.props)
-
     const mappedCards = this.props.nameBadges.map( (card, i) => {
         return(
             <BadgeCard 
