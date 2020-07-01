@@ -39,7 +39,7 @@ const Register = () => {
         formCleanUp()
     }
 
-    // Clean up for and state
+    // Clean up the form and state
     const formCleanUp = () => {
         setPassword('')
         setFirstName('')
@@ -55,21 +55,21 @@ const Register = () => {
         <div >
             Hello!  I'm Register!
             <form onSubmit={handleSubmit}>
-                fisrt name:
+                first name:
                 <input 
                     type='text'
                     name='firstName'
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
                 />
-                PAssword: 
+                Password: 
                 <input 
                     type='password'
                     name='password'
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                 />
-                <button> Click ME </button>
+                <button> Click ME! </button>
             </form>
             {mappedUsers}
         </div>
