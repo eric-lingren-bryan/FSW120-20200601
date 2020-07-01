@@ -48,22 +48,28 @@ function Register() {
         //     setPassword(value)
         // }
 
+    const handleSubmit = (e) => {
+        console.log(e)
+        e.preventDefault()
+    }
+
   return (
     <div>
     I'm Register!
-        <form>
-                name:
-                <input
-                    type='text'
-                    name='firstName'
-                    onChange={(e) => setName(e.target.value)}
-                />
-                Password: 
-                <input 
-                    type='password'
-                    name='password'
-                    onChange={(e) => setPassword(e.target.value)}
-                />
+        <form onSubmit={handleSubmit}>
+            name:
+            <input
+                type='text'
+                name='firstName'
+                onChange={(e) => setName(e.target.value)}
+            />
+            Password: 
+            <input 
+                type='password'
+                name='password'
+                onChange={(e) => setPassword(e.target.value)}
+            />
+            {/* <button> Submit </button> */}
         </form>
     </div>
   );
